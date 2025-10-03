@@ -1,0 +1,55 @@
+*{
+    background-color: #2C251D;
+}
+.pixelify-green{
+ font-family: "pixelify sans", sans-serif;
+ color: #92F76E;
+}
+.roboto-cafe{
+    font-family: "Roboto Flex", sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto);
+    gap: 10px;
+    padding: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.pixelify-coffee{
+    font-family: "Pixelify Sans", sans-serif;
+    color: #E7D5BA;
+}
+h2{
+    font-family: "pixelify sans", sans-serif;
+    color: #92F76E;
+    font-size: 64px;
+}
+legend{
+    font-family: "Pixelify Sans", sans-serif;
+    color: #E7D5BA;
+    font-size: 30px;
+}
+label{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 18px;
+    color: #E7D5BA;
+}
+p{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 22px;
+    color: #E7D5BA;
+    display: flex;
+    flex-direction: flex-end;
+}
+article{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    width: 460px;
+    height: 240px;
+    gap: 10px;
+}
