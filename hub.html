@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HUB</title>
+    <link rel="stylesheet" href="./src/css/hub.css">
 </head>
 <body>
-    
+    <main>
+        <header>
+            <nav>
+                <img src="./resources/isekai-world-logo+legend.png" alt="isekai-world-logo" href="./hub.html">
+                <ul>
+                    <li href="./catalogue.html">Viajes</li>
+                    <li>Mundos</li>
+                    <li>Hospedaje</li>
+                    <li>Transportes</li>
+                    <li>Alquiler de Autos</li>
+                    <li>Atracciones</li>
+                </ul>
+                <section class="register-buttons">
+                    <button href="./register.html">Regístrate</button>
+                    <button>Iniciar sesión</button>
+                </section>
+            </nav>
+            <h1>Cansado de vivir el mismo día, todos los días?</h1>
+            <h2>Deja la rutina atrás y despierta en un nuevo mundo, comienza tu aventura hoy!</h2>
+            <article>
+                <ol>
+                    <li>Vuelos</li>
+                    <li>Trenes</li>
+                    <li>Buses</li>
+                    <li>Económicos</li>
+                    <li>Plano Astral</li>
+                </ol>
+                <div class="search-box">
+                    <input type="search" id="origin" placeholder="Origen" required />
+                    <input type="search" id="destination" placeholder="Destino" required />
+                    <input type="date" id="departure-date" placeholder="Partida" required />
+                    <input type="date" id="return" placeholder="Regreso" required />
+                    <select id="travelers" placeholder="Viajeros">
+                        <option>1 Adulto</option>
+                        <option>2 Adultos</option>
+                        <option>1 Adulto + 1 Niño</option>
+                        <option>2 Adulto + 1 Niño</option>
+                    </select>
+                    <button id="search">Explora!</button>
+                </div>
+            </article>
+        </header>
+        <section></section>
+    </main>
 </body>
 </html>
