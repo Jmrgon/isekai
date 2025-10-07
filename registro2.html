@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISEKAI WORLD — Formulario Registro 2</title>
+
+  <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="Proyecto.css" />
+</head>
+
+<body>
+  <!-- background grain -->
+  <div class="bg"></div>
+
+  <main class="container-page">
+    <!-- ========= HEADER (SPACE RESERVED) ========= -->
+    <!-- leave space for the future logo + nav -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <!-- 🪄 paste the logo + nav from page 1 here later -->
+      </div>
+    </header>
+
+    <!-- ========= FORM 2 ========= -->
+    <section class="section registro2">
+      <!-- pixel font title -->
+      <h1 class="brand-title">Crea tu héroe viajero</h1>
+      <p class="brand-sub">
+        Únete a nuestra agencia de viajes fantásticos, elige tu personaje<br>
+        y prepárate para explorar mundos épicos.
+      </p>
+
+      <!-- main registration form -->
+      <form class="form-card" action="#" method="post" novalidate>
+        <!-- Full name -->
+        <div class="input-group">
+          <label class="label" for="name">Nombre completo*</label>
+          <input class="input" id="name" name="name" type="text" placeholder="Ej. Lorena Ferreira" required />
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+          <label class="label" for="email">Correo mágico*</label>
+          <input class="input" id="email" name="email" type="email" placeholder="Introduce tu dirección de e-mail" required />
+        </div>
+
+        <!-- Traveler class -->
+        <div class="input-group">
+          <label class="label" for="class">Clase del viajero (elige 1)</label>
+          <input class="input" id="class" name="class" type="text" placeholder="Ej. Hechicero, Guerrero, Explorador..." />
+        </div>
+
+        <!-- Password -->
+        <div class="input-group">
+          <label class="label" for="password">Contraseña secreta* 
+            <small>(Debe tener al menos 8 caracteres, una mayúscula y un número.)</small>
+          </label>
+          <input class="input" id="password" name="password" type="password" placeholder="********" required />
+        </div>
+
+        <!-- Confirm password -->
+        <div class="input-group">
+          <label class="label" for="confirm">Confirmar contraseña*</label>
+          <input class="input" id="confirm" name="confirm" type="password" placeholder="********" required />
+        </div>
+
+        <!-- Travel preferences -->
+        <div class="input-group">
+          <label class="label" for="preferences">Preferencias de viaje</label>
+          <input class="input" id="preferences" name="preferences" type="text" placeholder="Ej. Aventura, descanso, descubrimiento..." />
+        </div>
+
+        <!-- Traveler class repeat? -->
+        <div class="input-group">
+          <label class="label" for="class2">Clase del viajero (elige 1)</label>
+          <input class="input" id="class2" name="class2" type="text" placeholder="Ej. Explorador" />
+        </div>
+
+        <!-- Checkboxes -->
+        <div class="checkboxes">
+          <p class="label-small">Casillas de verificación</p>
+
+          <label class="checkbox-item">
+            <input type="checkbox" name="news" />
+            <span>Quiero recibir ofertas y novedades por correo</span>
+          </label>
+
+          <label class="checkbox-item">
+            <input type="checkbox" name="terms" required />
+            <span>Acepto los Términos y Condiciones y la Política de Privacidad*</span>
+          </label>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

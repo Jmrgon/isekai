@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro Agencia de Viajes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Proyecto.css">
+    
+</head>
+
+<body>
+<header>
+            <nav>
+                <img src="/Isekai World/" alt="isekai-world-logo" class="isekai-world-logo">
+                <ul>
+                    <li href="./catalogue.html">Viajes</li>
+                    <li>Mundos</li>
+                    <li>Hospedaje</li>
+                    <li>Transportes</li>
+                    <li>Alquiler de Autos</li>
+                    <li>Atracciones</li>
+                </ul>
+                <section>
+                    <button>Regístrate</button>
+                    <button>Iniciar sesión</button>
+                </section>
+            </nav>
+            <h1>Cansado de vivir el mismo día, todos los días?</h1>
+            <h2>Deja la rutina atrás y despierta en un nuevo mundo, comienza tu aventura hoy!</h2>
+            <article class="search-box-tabs">
+                <ol>
+                    <li>&#128747 Vuelos</li>
+                    <li>&#128646 Trenes</li>
+                    <li>&#128649 Buses</li>
+                    <li>&#128184 Económicos</li>
+                    <li>&#127776 Plano Astral</li>
+                </ol>
+                <div class="search-box">
+                    <p>&#128270</p>
+                    <input type="search" id="origin" placeholder="Origen" required />
+                    <input type="search" id="destination" placeholder="Destino" required />
+                    <input type="date" id="departure-date" placeholder="Partida" required />
+                    <input type="date" id="return" placeholder="Regreso" required />
+                    <select id="travelers" placeholder="Viajeros">
+                        <option>1 Adulto</option>
+                        <option>2 Adultos</option>
+                        <option>1 Adulto + 1 Niño</option>
+                        <option>2 Adulto + 1 Niño</option>
+                    </select>
+                    <button id="search">Explora!</button>
+                </div>
+            </article>
+            <hr>
+        </header>
+
+        <hr class="section-divider">
+
+        <!-- FORM SECTION: Section that wraps the e-mail sign-in/register form -->
+        <section class="section" aria-labelledby="intro-title">
+            <p class="Texto">
+                <b>Introduce tu correo electrónico</b> para registrarte o iniciar sesión.
+            </p>
+            <form class="form-card" action="#" method="post" novalidate>
+                <!-- Email field -->
+                <div class="field">
+                    <label class="label" for="email">Email</label>
+                    <input class="input" id="email" name="email" type="email" placeholder="Indica tu dirección de e-mail" required />
+                </div>
+
+                <!-- Primary CTA  -->
+                <button class="btn-primary" type="submit">Continuar con e-mail</button>
+
+                <!-- Divider  -->
+                <div class="divider">o usar una de estas opciones</div>
+                <!-- Social sign-in (icons only placeholders here)  -->
+                <div class="social" aria-label="Opciones de acceso social">
+                    <button type="button" class="socialmedia" aria-label="Continuar con Google">
+                        <img src="images-logos/Google.png.webp" alt="Google logo">
+                    </button>
+                    <button type="button" class="socialmedia" aria-label="Continuar con Apple">
+                        <img src="images-logos/Apple-Logo.png" alt="Apple logo">
+                    </button>
+                    <button type="button" class="socialmedia" aria-label="Continuar con Facebook">
+                        <img src="images-logos/facebook-logo.png" alt="Facebook logo">
+                    </button>
+                </div>
+                <!-- Legal note  -->
+                <p class="legal">
+                    Al iniciar sesión o al crear una cuenta, acepta nuestros
+                    <a href="#">Términos y Condiciones</a> y la
+                    <a href="#">Política de Privacidad</a>.<br>
+                    Todos los derechos reservados.
+                </p>
+            </form>
+        </section>
+    </main>
+</body>
+<footer>
+  <section>
+    <h3>Ayuda</h3>
+    <ul>
+        <li>Preguntas frecuentes</li>
+        <li>Sugerencias</li>
+        <li>Atención al cliente</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Información</h3>
+    <ul>
+      <li>¿Quienes somos?</li>
+      <li>¿De dónde venimos?</li>
+      <li>¿Hacia dónde nos dirigimos?</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Colaboradores</h3>
+    <ul>
+      <li>¡Descubre quienes somos!</li>
+      <li>Karina</li>
+      <li>Lorena</li>
+      <li>Noah</li>
+    </ul>
+  </section>
+</footer>
+
+</html>
