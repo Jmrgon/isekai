@@ -181,6 +181,7 @@ h3{
     height: 150px;
     float: left;
     margin-right: 20px;
+    border-radius: 3%;
 }
 
 legend {
@@ -227,6 +228,8 @@ footer h4, h5, h6 {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 22px;
     margin-left: 150px;
+    margin-top: 0;
+    padding-top: 30px;
 }
 
 footer ul {
