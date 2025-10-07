@@ -1,0 +1,240 @@
+body {
+    font-family: "Roboto Flex", sans-serif; 
+    color: #E7D5BA;
+    background: linear-gradient(#231A10, #463B2D);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin:  0 15px;
+    padding: 0;
+    color: inherit;
+}
+
+nav img {
+    width: 250px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+nav ul {
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0;
+    color: #E7D5BA;
+    font-weight: bold;
+}
+
+nav section button {
+    background-color: #92F76E !important;
+    color: #1C140C !important;
+    border-radius: 3px; 
+    border-style: none;
+    margin: 20px 2px auto;
+    padding:  2px 5px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 52px;
+    color: #92F76E;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 10rem;
+}
+
+h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 24px;
+    color: #E7D5BA;
+    margin-left: 10rem;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.search-box-tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 850px;
+    height: 100px;
+    padding-left: 15px;
+}
+
+.search-box {
+    background-color: #92F76E;
+    width: 1080px;
+    height: 30px;
+    padding: 0;
+    margin: 0 ;
+    padding-left: 10px;
+    margin-left: 2px;
+    padding-top: 10px;;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+.search-box-tabs li {
+    text-align: center;
+    vertical-align:text-top;
+    background-color: #ffe6c0af;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #1C140C;
+    font-weight: bold;
+    width: 120px;
+    height: 20px;
+    margin: 2px;
+    padding: 5px;
+    padding-right: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+}
+
+.search-box-tabs li:first-of-type {
+    background-color: #92F76E;
+}
+
+.search-box p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+input {
+    background-color: #E7D5BA;
+    color: #1C140C;
+    font-family: "Roboto Flex", sans-serif;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: #1C140C;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+select {
+    background-color: #E7D5BA;
+    color: #1C140C;
+    font-family: "Roboto Flex", sans-serif;
+    border-radius: 3px;
+} 
+
+.search-box button {
+    background-color: #463B2D;
+    color: #E7D5BA;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 30px;
+}
+
+hr {
+    border: 1px solid #92F76E;
+    margin: 0 11rem;
+}
+
+h3{
+    font-family: "pixelify sans", sans-serif;
+    color: #92F76E;
+    font-size: 36px;
+    margin: 40px 11rem 40px;
+    text-align: left;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 20px;
+    margin: 5px auto;
+    padding: 20px;
+    max-width: 1080px;
+}
+
+.gallery img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+legend {
+    display: flex;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #92F76E;
+    font-size: 26px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+label{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 14px;
+    color: #E7D5BA;
+}    
+
+p {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    margin-left: 20px;
+    gap: 10px;
+    text-justify:inter-word;
+}
+
+
+
+footer {
+    background-color: #231A10;
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #E7D5BA;
+    text-align: left;
+    margin-top: 100px;
+}
+
+footer h4, h5, h6 {
+    margin-bottom: 1rem;
+    color: #92F76E;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 22px;
+    margin-left: 150px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Roboto Flex", sans-serif;
+    color: #E7D5BA;
+    font-size: 16px;
+    margin-left: 150px;
+}
+
