@@ -44,6 +44,14 @@ nav section button {
     font-weight: bold;
 }
 
+nav section button a {
+     text-decoration: none;
+     color: #1C140C;
+}
+
+nav section button a:visited {
+    color: #1C140C;
+}
 
 h2 {
     font-family: "Pixelify Sans", sans-serif;
