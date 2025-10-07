@@ -34,6 +34,18 @@ nav ul {
     font-weight: bold;
 }
 
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a:visited {
+    color: #E7D5BA;
+}
+
+nav ul a:hover {
+    color: #92F76E;
+}
+
 nav section button {
     background-color: #92F76E !important;
     color: #1C140C !important;
@@ -45,78 +57,32 @@ nav section button {
 }
 
 nav section button a {
-     text-decoration: none;
-     color: #1C140C;
-}
-
-nav section button a:visited {
+    text-decoration: none;
     color: #1C140C;
 }
 
-h2 {
+h1 {
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 40px;
+    font-size: 52px;
     color: #92F76E;
-    margin-left: 12rem;
+    margin-bottom: 0;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-left: 10rem;
 }
 
-nav ul a {
-    text-decoration: none;
-}
-
-nav ul a:visited {
-    color: #E7D5BA;
-}
-
-hr {
-    border: 1px solid #92F76E;
-    margin: 40px 11rem;
-
-}
-.gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 50px;
-    column-gap: 20px;
-    margin: 5px auto;
-    padding: 20px;
-    max-width: 1080px;
-}
-
-.gallery img{
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin-right: 20px;
-    border-radius: 3%;
-}
-
-legend {
-    display: flex;
-    font-family: "Pixelify Sans", sans-serif;
+h1{
+    font-family: "pixelify sans", sans-serif;
+    font-size: 50px;
     color: #92F76E;
-    font-size: 26px;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 60px auto;
+    text-align: center;
 }
-
-label{
+article{
     font-family: "Roboto Flex", sans-serif;
-    font-size: 14px;
+    font-size: 30px;
     color: #E7D5BA;
-}    
-
-p {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    padding-top: 10px;
-    margin: 0;
-    margin-left: 20px;
-    gap: 10px;
-    text-justify:inter-word;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 
