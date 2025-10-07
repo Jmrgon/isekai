@@ -34,6 +34,13 @@ nav ul {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #E7D5BA;
+}
 nav section button {
     background-color: #92F76E !important;
     color: #1C140C !important;
