@@ -51,6 +51,59 @@ body {
     align-items: center;
     gap: var(--gap);
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    margin:  0 15px;
+    padding: 0;
+    color: inherit;
+}
+
+nav img {
+    width: 250px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+nav ul {
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0;
+    color: #E7D5BA;
+    font-weight: bold;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a:visited {
+    color: #E7D5BA;
+}
+
+nav ul a:hover {
+    color: #92F76E;
+}
+
+nav section button {
+    background-color: #92F76E !important;
+    color: #1C140C !important;
+    border-radius: 3px; 
+    border-style: none;
+    margin: 20px 2px auto;
+    padding:  2px 5px;
+    font-weight: bold;
+}
+
+nav section button a {
+    text-decoration: none;
+    color: #1C140C;
+}
 
 /* ========================= LOGO ========================= */
 .logo {
@@ -119,16 +172,20 @@ body {
 }
 
 .hero-inner {
-    max-width: var(--container);
     margin: 0 auto;
     padding: 28px var(--gap) 36px;
 }
 
+h1.brand-title {
+    color: #92F76E !important;
+}
+
 .brand-title {
+    color: #92F76E;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: clamp(26px, 3.6vw, 48px);
-    color: var(--green);
+    font-size: 80px;
     text-shadow: 0 0 8px rgba(146, 247, 110, .25);
+    margin: auto;
     margin-bottom: 8px;
 }
 
@@ -471,4 +528,40 @@ h2 {
     margin-left: 10rem;
     margin-top: 0;
     margin-bottom: 40px;
+}
+
+
+footer {
+    background-color: #231A10;
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #E7D5BA;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+footer h4, h5, h6 {
+    margin-bottom: 1rem;
+    color: #92F76E;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 22px;
+    margin-left: 150px;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Roboto Flex", sans-serif;
+    color: #E7D5BA;
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+footer section ul a {
+    text-decoration: none !important;
+    color: #E7D5BA;
 }
